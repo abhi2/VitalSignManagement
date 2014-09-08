@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/bckgrnd"
+    >
+<!--<TextView  -->
+<!--    android:layout_width="fill_parent" -->
+<!--    android:layout_height="wrap_content" -->
+<!--    android:text="@string/hello"-->
+<!--    />-->
+ <TableRow android:id="@+id/tableRow3" android:layout_width="match_parent" 
+    android:background="@color/white" android:layout_height="10dp">
+        <TextView android:text="" android:background="@color/darkBlue"
+        android:id="@+id/textView2" android:layout_width="wrap_content" android:layout_height="20dp"></TextView>
+    </TableRow>
+    <TableRow android:id="@+id/tableRow1" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <ImageView android:id="@+id/imageView1" android:layout_height="100dp" android:layout_width="wrap_content" android:src="@drawable/header"></ImageView>
+    </TableRow>
+    <TableRow android:id="@+id/tableRow2" android:layout_width="match_parent" android:layout_height="wrap_content">
+       <TextView android:text="                   " 
+        android:id="@+id/textView2" android:layout_width="wrap_content" android:layout_height="20dp"></TextView>
+        <TextView android:text="  Welcome to VitalSign  " android:id="@+id/textView1"
+        android:background="@color/white"
+        android:textSize="16sp"
+         android:layout_width="wrap_content" 
+         android:layout_height="wrap_content"
+         android:textColor="@color/darkBlue"
+         android:typeface="serif"></TextView>
+    </TableRow>
+    <TableRow android:id="@+id/tableRow3" android:layout_width="match_parent" 
+    android:background="@color/white" android:layout_height="10dp">
+        <TextView android:text="" android:background="@color/white"
+        android:id="@+id/textView2" android:layout_width="wrap_content" 
+        android:layout_height="20dp">
+        </TextView>
+    </TableRow>
+    <TableRow android:id="@+id/tableRow4" 
+    android:layout_width="match_parent" 
+    android:layout_height="wrap_content">
+        <TextView android:text="" 
+        android:id="@+id/textView3" 
+        android:layout_width="wrap_content" 
+        android:layout_height="wrap_content">
+        </TextView>
+    </TableRow>
+     
+     <TableRow android:id="@+id/tableRow5" 
+     android:layout_width="match_parent" 
+     android:layout_height="wrap_content">
+        <TextView android:text="    UserId : " 
+        android:id="@+id/textView4" 
+        android:textColor="@color/black"
+        android:layout_width="wrap_content" 
+        android:textSize="15sp" 
+        android:typeface="serif"
+        android:layout_height="wrap_content">
+        </TextView>
+        <EditText android:id="@+id/userid" 
+        android:layout_height="50dp"  
+        android:layout_width="match_parent">
+        </EditText>
+    </TableRow>
+    
+    <TableRow android:id="@+id/tableRow7" 
+    android:layout_width="match_parent" 
+    android:layout_height="wrap_content">
+        <TextView android:text="Password" 
+        android:id="@+id/textView6" 
+        android:textSize="15sp" 
+        android:typeface="serif"
+        android:textColor="@color/black"
+        android:layout_width="wrap_content" 
+       
+        android:layout_height="wrap_content">
+        </TextView>
+        <EditText android:id="@+id/password" 
+        android:layout_height="50dp" android:inputType="textPassword"
+        android:layout_width="match_parent">
+        </EditText>
+    </TableRow>
+    <TableRow android:id="@+id/tableRow6" 
+    android:layout_width="match_parent" 
+    android:layout_height="wrap_content">
+        <TextView android:text="UserType"
+         android:id="@+id/textView5" 
+         android:layout_width="wrap_content" 
+         android:layout_height="wrap_content" 
+         
+          android:textSize="12sp" 
+          android:textColor="@color/black">
+          </TextView>
+        <Spinner android:id="@+id/spinner1" 
+        android:layout_height="60dp"   
+        android:layout_width="match_parent">
+        </Spinner>
+    </TableRow>
+    <TableRow android:id="@+id/tableRow8" 
+    android:layout_width="match_parent" 
+    android:layout_height="wrap_content">
+        <TextView android:text="             " 
+        android:id="@+id/textView7" 
+        android:layout_height="wrap_content" 
+        android:layout_width="wrap_content">
+        </TextView>
+ <Button android:layout_height="50dp" 
+ android:text="SignIn" android:textColor="@color/white"
+ android:id="@+id/signbtn" 
+ android:background="@drawable/bluebtn" android:layout_width="100dp">
+ </Button>
+    </TableRow>
+    
+</LinearLayout>

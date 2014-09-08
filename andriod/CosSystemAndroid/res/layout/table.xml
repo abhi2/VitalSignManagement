@@ -1,0 +1,512 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:background="@drawable/bckgrnd" android:orientation="vertical">
+
+    <TableRow android:layout_height="6dp" 
+    android:background="@color/white"
+    android:id="@+id/tableRow3" 
+    android:layout_width="match_parent">
+        <TextView android:text="" 
+        android:id="@+id/textView1"
+         android:layout_width="wrap_content" 
+         android:layout_height="6dp">
+         </TextView>
+    </TableRow>
+    
+    <TableRow
+        android:id="@+id/tableRow4"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:gravity="center_horizontal">
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:typeface="serif"
+            android:textSize="18dp" 
+            android:textColor="@color/chocolate"
+            android:text=" SetThresholdValues"
+            android:gravity="center"
+            android:layout_span="6"></TextView>
+    </TableRow>
+   
+    <TableRow android:layout_height="6dp" 
+    android:background="@color/white"
+    android:id="@+id/tableRow3" 
+    android:layout_width="match_parent">
+        <TextView android:text="" 
+        android:id="@+id/textView1" 
+        android:layout_width="wrap_content" 
+        android:layout_height="6dp"></TextView>
+    </TableRow>
+    
+    <TableRow
+        android:id="@+id/tableRow1"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent">
+        
+        <TextView
+            android:id="@+id/TextView04" 
+            android:textColor="@color/black"
+            android:text="  Edit " 
+            android:layout_width="60dp"
+            android:textSize="13sp"
+            android:textStyle="normal"
+            android:typeface="normal"></TextView>
+        
+        <TextView
+            android:id="@+id/TextView03" 
+            android:textColor="@color/black"
+            android:text="VitalSignType"
+            android:textStyle="normal" 
+            android:textSize="13sp"
+            android:layout_width="85dp"
+            android:typeface="normal"></TextView>
+        <TextView
+            android:id="@+id/TextView02" 
+            android:textColor="@color/black"
+            android:text="         UnitOf
+       Measure"
+            android:textStyle="normal" 
+            android:textSize="13sp"
+            android:layout_width="120dp"
+            android:typeface="normal"></TextView>
+        <TextView
+            android:id="@+id/TextView01" 
+            android:textColor="@color/black"
+            android:text="SetThreshold"
+            android:textStyle="normal"
+            android:textSize="13sp"
+            android:typeface="normal"></TextView>
+       
+    </TableRow>
+    
+    <TableRow android:layout_height="6dp" 
+    android:background="@color/white"
+    android:id="@+id/tableRow3" 
+    android:layout_width="match_parent">
+        <TextView android:text="" 
+        android:id="@+id/textView1" 
+        android:layout_width="wrap_content" 
+        android:layout_height="6dp"></TextView>
+    </TableRow>
+     
+      <ScrollView
+		android:id="@+id/widget28"
+		android:layout_width="318dp"
+		android:layout_height="300dp"
+		android:layout_below="@+id/Save"
+		xmlns:android="http://schemas.android.com/apk/res/android"
+		android:scrollbarAlwaysDrawVerticalTrack="true"
+        android:scrollbars="vertical"
+		android:scrollbarSize="12px">
+    <TableLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/tableLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="300dp"
+     android:background="@drawable/bckgrnd"
+    android:scrollbars="vertical"
+    android:shrinkColumns="*" 
+    android:stretchColumns="*">
+    <TableRow
+        android:layout_height="wrap_content"
+        android:id="@+id/tableRow2"
+        android:layout_width="match_parent">
+        
+        <CheckBox android:text="" 
+        android:width="20dp"
+        android:id="@+id/checkBox1" >
+        </CheckBox>
+        <TextView
+            android:text="BloodPressure
+-Diastolic" 
+android:textSize="11sp"
+            android:textColor="@color/black"
+            android:id="@+id/textView4" 
+            android:layout_width="50dp"
+            android:gravity="center_horizontal"></TextView>
+        <TextView
+            android:text="mmHg" 
+            android:width="30dp"
+            android:textSize="11sp"
+            android:id="@+id/textView5" 
+            android:textColor="@color/black"
+            android:gravity="center_horizontal"></TextView>
+        <EditText android:id="@+id/edittext1" 
+        android:layout_height="50dp"
+        android:inputType="number"
+        android:gravity="left"></EditText>
+    </TableRow>
+    <TableRow
+        android:layout_height="wrap_content"
+        android:id="@+id/tableRow2"
+        android:layout_width="match_parent">
+       
+       
+        <CheckBox android:text="" 
+        android:id="@+id/checkBox2" ></CheckBox>
+        <TextView
+            android:text="BloodPressure
+-Systolic" 
+android:textSize="11sp"
+            android:textColor="@color/black"
+            android:id="@+id/textView5"
+            android:gravity="center_horizontal"></TextView>
+        <TextView
+            android:text="mmHg" 
+            android:textColor="@color/black"
+            android:id="@+id/textView6"
+            android:textSize="11sp"
+            android:gravity="center_horizontal"></TextView>
+        <EditText android:id="@+id/edittext2" 
+        android:layout_height="50dp"
+          android:inputType="number"
+        android:gravity="left"></EditText>
+    </TableRow>
+     <TableRow
+        android:layout_height="wrap_content"
+        android:id="@+id/tableRow2"
+        android:layout_width="match_parent">
+        
+        <CheckBox android:text="" 
+        android:id="@+id/checkBox3" ></CheckBox>
+        <TextView
+            android:text="Glucose" 
+            android:textSize="11sp"
+            android:textColor="@color/black"
+            android:id="@+id/textView4" 
+            android:layout_width="50dp"
+            android:gravity="center_horizontal"></TextView>
+        <TextView
+            android:text="mmol/l" 
+            android:width="30dp"
+            android:textSize="11sp"
+            android:id="@+id/textView5" 
+            android:textColor="@color/black"
+            android:gravity="center_horizontal"></TextView>
+        <EditText android:id="@+id/edittext3" 
+        android:layout_height="50dp"
+          android:inputType="number"
+        android:gravity="left"></EditText>
+    </TableRow>
+     <TableRow
+        android:layout_height="wrap_content"
+        android:id="@+id/tableRow2"
+        android:layout_width="match_parent">
+        
+        <CheckBox android:text="" 
+        android:id="@+id/checkBox4" ></CheckBox>
+        <TextView
+            android:text="HeadCircumference" 
+            android:textColor="@color/black"
+            android:textSize="11sp"
+            android:id="@+id/textView4" 
+            android:layout_width="50dp"
+            android:gravity="center_horizontal"></TextView>
+        <TextView
+            android:text="cm" 
+            android:width="30dp"
+            android:textSize="11sp"
+            android:id="@+id/textView5" 
+            android:textColor="@color/black"
+            android:gravity="center_horizontal"></TextView>
+        <EditText android:id="@+id/edittext4" 
+        android:layout_height="50dp"
+          android:inputType="number"
+        android:gravity="left"></EditText>
+    </TableRow>
+     <TableRow
+        android:layout_height="wrap_content"
+        android:id="@+id/tableRow2"
+        android:layout_width="match_parent">
+        
+        <CheckBox android:text="" 
+        android:id="@+id/checkBox5" ></CheckBox>
+        <TextView
+            android:text="HeadCircumference2" 
+            android:textColor="@color/black"
+            android:id="@+id/textView4" 
+            android:layout_width="50dp"
+            android:textSize="11sp"
+            android:gravity="center_horizontal"></TextView>
+        <TextView
+            android:text="cm" 
+            android:width="30dp"
+            android:id="@+id/textView5" 
+            android:textSize="11sp"
+            android:textColor="@color/black"
+            android:gravity="center_horizontal"></TextView>
+        <EditText android:id="@+id/edittext5" 
+        android:layout_height="50dp"
+          android:inputType="number"
+        android:gravity="left"></EditText>
+    </TableRow>
+     <TableRow
+        android:layout_height="wrap_content"
+        android:id="@+id/tableRow2"
+        android:layout_width="match_parent">
+        
+        <CheckBox android:text="" 
+        android:id="@+id/checkBox6" ></CheckBox>
+        <TextView
+            android:text="Height" 
+            android:textSize="11sp"
+            android:textColor="@color/black"
+            android:id="@+id/textView4" 
+            android:layout_width="50dp"
+            android:gravity="center_horizontal"></TextView>
+        <TextView
+            android:text="cm" 
+            android:width="30dp"
+            android:id="@+id/textView5" 
+            android:textSize="11sp"
+            android:textColor="@color/black"
+            android:gravity="center_horizontal"></TextView>
+        <EditText android:id="@+id/edittext6" 
+        android:layout_height="50dp"
+          android:inputType="number"
+        android:gravity="left"></EditText>
+    </TableRow>
+     <TableRow
+        android:layout_height="wrap_content"
+        android:id="@+id/tableRow2"
+        android:layout_width="match_parent">
+        
+        <CheckBox android:text="" 
+        android:id="@+id/checkBox7" ></CheckBox>
+        <TextView
+            android:text="PainScale" 
+            android:textSize="11sp"
+            android:textColor="@color/black"
+            android:id="@+id/textView4" 
+            android:layout_width="50dp"
+            android:gravity="center_horizontal"></TextView>
+        <TextView
+            android:text="" 
+            android:textSize="11sp"
+            android:width="30dp"
+            android:id="@+id/textView5" 
+            android:textColor="@color/black"
+            android:gravity="center_horizontal"></TextView>
+        <EditText android:id="@+id/edittext7" 
+        android:layout_height="50dp"
+          android:inputType="number"
+        android:gravity="left"></EditText>
+    </TableRow>
+     <TableRow
+        android:layout_height="wrap_content"
+        android:id="@+id/tableRow2"
+        android:layout_width="match_parent">
+        
+        <CheckBox android:text="" 
+        android:id="@+id/checkBox8" ></CheckBox>
+        <TextView
+            android:text="PeakRespFlowRt" 
+            android:textSize="11sp"
+            android:textColor="@color/black"
+            android:id="@+id/textView4" 
+            android:layout_width="50dp"
+            android:gravity="center_horizontal"></TextView>
+        <TextView
+            android:text="L/S" 
+            android:textSize="11sp"
+            android:width="30dp"
+            android:id="@+id/textView5" 
+            android:textColor="@color/black"
+            android:gravity="center_horizontal"></TextView>
+        <EditText android:id="@+id/edittext8" 
+        android:layout_height="50dp"
+          android:inputType="number"
+        android:gravity="left"></EditText>
+    </TableRow>
+     <TableRow
+        android:layout_height="wrap_content"
+        android:id="@+id/tableRow2"
+        android:layout_width="match_parent">
+        
+        <CheckBox android:text="" 
+        android:id="@+id/checkBox9" ></CheckBox>
+        <TextView
+            android:text="PostRespFlowRt" 
+            android:textColor="@color/black"
+            android:textSize="11sp"
+            android:id="@+id/textView4" 
+            android:layout_width="50dp"
+            android:gravity="center_horizontal"></TextView>
+        <TextView
+            android:text="L/S" 
+            android:textSize="11sp"
+            android:width="30dp"
+            android:id="@+id/textView5" 
+            android:textColor="@color/black"
+            android:gravity="center_horizontal"></TextView>
+        <EditText android:id="@+id/edittext9" 
+        android:layout_height="50dp"
+          android:inputType="number"
+        android:gravity="left"></EditText>
+    </TableRow>
+     <TableRow
+        android:layout_height="wrap_content"
+        android:id="@+id/tableRow2"
+        android:layout_width="match_parent">
+        
+        <CheckBox android:text="" 
+        android:id="@+id/checkBox10" ></CheckBox>
+        <TextView
+            android:text="Pulse" 
+            android:textSize="11sp"
+            android:textColor="@color/black"
+            android:id="@+id/textView4" 
+            android:layout_width="50dp"
+            android:gravity="center_horizontal"></TextView>
+        <TextView
+            android:text="BPM" 
+            android:textSize="11sp"
+            android:width="30dp"
+            android:id="@+id/textView5" 
+            android:textColor="@color/black"
+            android:gravity="center_horizontal"></TextView>
+        <EditText android:id="@+id/edittext10" 
+        android:layout_height="50dp"
+          android:inputType="number"
+        android:gravity="left"></EditText>
+    </TableRow>
+     <TableRow
+        android:layout_height="wrap_content"
+        android:id="@+id/tableRow2"
+        android:layout_width="match_parent">
+        
+        <CheckBox android:text="" 
+        android:id="@+id/checkBox11" ></CheckBox>
+        <TextView
+            android:text="PulseOximetry" 
+            android:textSize="11sp"
+            android:textColor="@color/black"
+            android:id="@+id/textView4" 
+            android:layout_width="50dp"
+            android:gravity="center_horizontal"></TextView>
+        <TextView
+            android:text="%" 
+            android:textSize="11sp"
+            android:width="30dp"
+            android:id="@+id/textView5" 
+            android:textColor="@color/black"
+            android:gravity="center_horizontal"></TextView>
+        <EditText android:id="@+id/edittext11" 
+        android:layout_height="50dp"
+          android:inputType="number"
+        android:gravity="left"></EditText>
+    </TableRow>
+     <TableRow
+        android:layout_height="wrap_content"
+        android:id="@+id/tableRow2"
+        android:layout_width="match_parent">
+        
+        <CheckBox android:text="" 
+        android:id="@+id/checkBox12" ></CheckBox>
+        <TextView
+            android:text="Respiration" 
+            android:textSize="11sp"
+            android:textColor="@color/black"
+            android:id="@+id/textView4" 
+            android:layout_width="50dp"
+            android:gravity="center_horizontal"></TextView>
+        <TextView
+            android:text="rpm" 
+            android:textSize="11sp"
+            android:width="30dp"
+            android:id="@+id/textView5" 
+            android:textColor="@color/black"
+            android:gravity="center_horizontal"></TextView>
+        <EditText android:id="@+id/edittext12" 
+        android:layout_height="50dp"
+          android:inputType="number"
+        android:gravity="left"></EditText>
+    </TableRow>
+     <TableRow
+        android:layout_height="wrap_content"
+        android:id="@+id/tableRow2"
+        android:layout_width="match_parent">
+        
+        <CheckBox android:text="" 
+        android:id="@+id/checkBox13" ></CheckBox>
+        <TextView
+            android:text="Temparature" 
+            android:textColor="@color/black"
+            android:id="@+id/textView4" 
+            android:layout_width="50dp"
+            android:textSize="11sp"
+            android:gravity="center_horizontal"></TextView>
+        <TextView
+            android:text="F" 
+            android:width="30dp"
+            android:textSize="11sp"
+            android:id="@+id/textView5" 
+            android:textColor="@color/black"
+            android:gravity="center_horizontal"></TextView>
+        <EditText android:id="@+id/edittext13" 
+        android:layout_height="50dp"
+          android:inputType="number"
+        android:gravity="left"></EditText>
+    </TableRow>
+     <TableRow
+        android:layout_height="wrap_content"
+        android:id="@+id/tableRow2"
+        android:layout_width="match_parent">
+        
+        <CheckBox android:text="" 
+        android:id="@+id/checkBox14" ></CheckBox>
+        <TextView
+            android:text="Weight" 
+            android:textSize="11sp"
+            android:textColor="@color/black"
+            android:id="@+id/textView4" 
+            android:layout_width="50dp"
+            android:gravity="center_horizontal"></TextView>
+        <TextView
+            android:text="Kg" 
+            android:width="30dp"
+            android:textSize="11sp"
+            android:id="@+id/textView5" 
+            android:textColor="@color/black"
+            android:gravity="center_horizontal"></TextView>
+        <EditText android:id="@+id/edittext14" 
+        android:layout_height="50dp"
+          android:inputType="number"
+        android:gravity="left"></EditText>
+    </TableRow>
+</TableLayout>
+</ScrollView>
+<TableRow android:id="@+id/tableRow6"
+android:background="@color/white"
+ android:layout_width="match_parent"
+  android:layout_height="5dp">
+    <TextView android:text="" 
+    android:id="@+id/textView2" 
+    android:background="@color/darkBlue"
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content"></TextView>
+</TableRow>
+<TableRow android:id="@+id/tableRow5" 
+android:layout_width="match_parent" 
+android:layout_height="wrap_content">
+    <Button android:text="UpdateThreshold"
+     android:id="@+id/button1" 
+     android:layout_width="wrap_content" 
+     android:layout_height="wrap_content"></Button>
+    <TextView android:text="   " 
+    android:id="@+id/textView3" 
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content"></TextView>
+    <Button android:text="Cancel" 
+    android:id="@+id/button2" 
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content"></Button>
+</TableRow>
+
+</LinearLayout>

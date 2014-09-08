@@ -1,0 +1,142 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+<fieldset>
+
+<legend>Add Vitals  </legend>
+<form  action="http://localhost:8080/VitalSignWSRS/vitalsign/addvitals" method="post">
+
+<!--
+@FormParam("uname") String uname, 
+@FormParam("vitaltype") String vitalType, 
+@FormParam("vitalvalue") String vitalValue,
+@FormParam("unitofmeasure")  String unitOfMeasure, 
+@FormParam("partyid") String partyID, 
+@FormParam("encounterid") String encounterID,
+@FormParam("authtoken") String authToken 
+-->
+
+<label>Username </label>
+<input type="text" name="uname"></input>
+<label>vital type </label>
+<input type="text" name="vitaltype"></input>
+<label>vital value </label>
+<input type="text" name="vitalvalue"></input>
+<label>unit of measure </label>
+<input type="text" name="unitofmeasure"></input>
+<label>party id </label>
+<input type="text" name="partyid"></input>
+<label>encounter id </label>
+<input type="text" name="encounterid"></input>
+<label>auth token </label>
+<input type="text" name="authtoken"></input>	
+
+<input type="submit" value="Submit" name="Submit">
+</form>
+</fieldset>
+
+<fieldset>
+<legend>Get Vitals </legend>
+<form  action="http://localhost:8080/VitalSignWSRS/vitalsign/getvitals" method="post">
+
+
+<label>Username </label>
+<input type="text" name="uname"></input>
+	
+<input type="submit" value="Submit" name="Submit">
+</form>
+</fieldset>
+
+<fieldset>
+<legend>User Login </legend>
+<form  action="http://localhost:8080/VitalSignWSRS/vitalsign/userlogin" method="post">
+
+
+<label>Username </label>
+<input type="text" name="uname"></input>
+	
+<label>Password </label>
+<input type="password" name="pwd" ></input>
+<input type="submit" value="Submit" name="Submit">
+</form>
+</fieldset>
+
+
+
+<fieldset>
+<legend>Update Vitals </legend>
+<!-- 
+
+@FormParam("uname") String uname, 
+@FormParam("vitaltype") String vitalType,  
+@FormParam("vitalValue")  String vitalValue 
+-->
+<form  action="http://localhost:8080/VitalSignWSRS/vitalsign/updatevitals" method="post">
+
+
+<label>Username </label>
+<input type="text" name="uname"></input>
+	
+<label>Vital Type </label>
+<input type="text" name="vitaltype" ></input>
+
+
+<label>Vital Value </label>
+<input type="password" name="vitalValue" ></input>
+
+<input type="submit" value="Submit" name="Submit">
+</form>
+</fieldset>
+
+
+<fieldset>
+<legend> View Profile </legend>
+<!-- 
+
+@FormParam("uname") String uname, 
+@FormParam("vitaltype") String vitalType,  
+@FormParam("vitalValue")  String vitalValue 
+-->
+<form  action="http://localhost:8080/VitalSignWSRS/vitalsign/viewprofile" method="post">
+
+
+<label>Username </label>
+<input type="text" name="uname"></input>
+	
+<label>Password </label>
+<input type="password" name="pwd" ></input>
+
+
+<input type="submit" value="Submit" name="Submit">
+</form>
+</fieldset>
+
+<fieldset>
+<legend> Get Party Id </legend>
+<!-- 
+
+@FormParam("uname") String uname, 
+@FormParam("vitaltype") String vitalType,  
+@FormParam("vitalValue")  String vitalValue 
+-->
+<form  action="http://localhost:8080/VitalSignWSRS/vitalsign/getParty" method="post">
+
+
+<label>Username </label>
+<input type="text" name="uname"></input>
+	
+<label>Password</label>
+<input type="password" name="pwd" ></input>
+
+
+<input type="submit" value="Submit" name="Submit">
+</form>
+</fieldset>
+
+</body>
+</html>

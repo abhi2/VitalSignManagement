@@ -1,0 +1,501 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:background="@drawable/bckgrnd" android:orientation="vertical">
+  <TableRow
+        android:id="@+id/tableRow4"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:gravity="center_horizontal">
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:typeface="serif"
+            android:textSize="18dp" 
+            android:textColor="@color/chocolate"
+            android:text=" AddVitalSigns"
+            android:gravity="center"
+            android:layout_span="6"></TextView>
+    </TableRow>
+ <ScrollView
+		android:id="@+id/widget28"
+		android:layout_width="fill_parent"
+		android:layout_height="300dp"
+		android:layout_below="@+id/Save"
+		xmlns:android="http://schemas.android.com/apk/res/android"
+		android:scrollbarAlwaysDrawVerticalTrack="true"
+		android:scrollbars="vertical|horizontal"
+		android:scrollbarSize="12px"
+		android:scrollbarStyle="insideOverlay"
+		>
+  
+  <TableLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/tableLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="300dp" android:background="@drawable/bckgrnd"
+    android:shrinkColumns="*" 
+    android:scrollbars="horizontal"
+    android:stretchColumns="*">
+    <TableRow android:layout_height="6dp" 
+    android:background="@color/white"
+    android:id="@+id/tableRow3" 
+    android:layout_width="match_parent">
+        <TextView android:text="" 
+        android:id="@+id/textView1"
+         android:layout_width="wrap_content" 
+         android:layout_height="6dp">
+         </TextView>
+    </TableRow>
+    
+    <TableRow android:layout_height="6dp" 
+    android:background="@color/white"
+    android:id="@+id/tableRow3" 
+    android:layout_width="match_parent">
+        <TextView android:text="" 
+        android:id="@+id/textView1" 
+        android:layout_width="wrap_content" 
+        android:layout_height="6dp"></TextView>
+    </TableRow>
+    <TableRow
+        android:id="@+id/tableRow1"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent">
+        
+      
+        
+        <TextView
+            android:id="@+id/TextView03" 
+            android:textColor="@color/black"
+            android:text="    VitalSignType"
+            android:textStyle="normal" 
+            android:layout_width="20dp"
+            android:typeface="normal"></TextView>
+<!--        <TextView-->
+<!--            android:id="@+id/TextView02" -->
+<!--            android:textColor="@color/black"-->
+<!--            android:text="Location     "-->
+<!--            android:textStyle="normal" -->
+<!--            android:layout_width="20dp"-->
+<!--            -->
+<!--            android:typeface="normal"></TextView>-->
+        <TextView
+            android:id="@+id/TextView01" 
+            android:textColor="@color/black"
+            android:text="        Value"
+            android:textStyle="normal"
+            android:typeface="normal"></TextView>
+       
+    </TableRow>
+    <TableRow android:layout_height="6dp" 
+    android:background="@color/white"
+    android:id="@+id/tableRow3" 
+    android:layout_width="match_parent">
+        <TextView android:text="" 
+        android:id="@+id/textView1" 
+        android:layout_width="wrap_content" 
+        android:layout_height="6dp"></TextView>
+    </TableRow>
+    
+    
+    <TableRow
+        android:layout_height="wrap_content"
+        android:id="@+id/tableRow2"
+        android:layout_width="match_parent"
+        >
+        
+       <TextView
+            android:text="BloodPressure-Diastolic" 
+            android:textColor="@color/black"
+            android:id="@+id/textView4" 
+            android:layout_width="50dp"
+            android:gravity="center_horizontal"></TextView>
+<!--         <Spinner android:id="@+id/spinner1" -->
+<!--        android:layout_height="35dp"   -->
+<!--        android:layout_width="60dp">-->
+<!--        </Spinner>-->
+        <EditText android:id="@+id/edittext1" 
+        android:layout_height="45dp"
+        android:layout_width="80dp"
+        android:gravity="right"></EditText>
+        <TextView
+            android:text="mmHg" 
+            android:textColor="@color/black"
+            android:id="@+id/textView40" 
+            android:layout_width="50dp"
+            android:gravity="left"></TextView>
+    </TableRow>
+   
+   
+    <TableRow
+        android:layout_height="wrap_content"
+        android:id="@+id/tableRow2"
+       
+         
+        android:layout_width="match_parent">
+       
+        <TextView
+            android:text="BloodPressure-Systolic" 
+            android:textColor="@color/black"
+            android:id="@+id/textView5"
+            android:gravity="center_horizontal"></TextView>
+<!--         <Spinner android:id="@+id/spinner1" -->
+<!--        android:layout_height="35dp"   -->
+<!--        android:layout_width="match_parent">-->
+<!--        </Spinner>-->
+        <EditText android:id="@+id/edittext2" 
+        android:layout_height="45dp"
+        android:gravity="left"></EditText>
+      <TextView
+            android:text="mmHg" 
+            android:textColor="@color/black"
+            android:id="@+id/textView41" 
+            android:layout_width="50dp"
+            android:gravity="left"></TextView>
+    </TableRow>
+    
+    
+    
+    
+     <TableRow
+        android:layout_height="wrap_content"
+        android:id="@+id/tableRow2"
+        android:layout_width="match_parent">
+        <TextView
+            android:text="Glucose" 
+            android:textColor="@color/black"
+            android:id="@+id/textView4" 
+            android:layout_width="50dp"
+            android:gravity="center_horizontal"></TextView>
+<!--         <Spinner android:id="@+id/spinner1" -->
+<!--            android:layout_height="35dp"   -->
+<!--            android:layout_width="match_parent">-->
+<!--        </Spinner>-->
+        <EditText android:id="@+id/edittext3" 
+                  android:layout_height="45dp"
+                  android:gravity="left"></EditText>
+        <TextView
+            android:text="mmOl/l" 
+            android:textColor="@color/black"
+            android:id="@+id/textView42" 
+            android:layout_width="50dp"
+            android:gravity="left"></TextView>
+    </TableRow>
+     <TableRow
+        android:layout_height="wrap_content"
+        android:id="@+id/tableRow2"
+        android:layout_width="match_parent">
+        
+     
+        <TextView
+            android:text="Waist Circumferance" 
+            android:textColor="@color/black"
+            android:id="@+id/textView4" 
+            android:layout_width="50dp"
+            android:gravity="center_horizontal"></TextView>
+<!--         <Spinner android:id="@+id/spinner1" -->
+<!--        android:layout_height="35dp"   -->
+<!--        android:layout_width="match_parent">-->
+<!--        </Spinner>-->
+        <EditText android:id="@+id/edittext4" 
+        android:layout_height="45dp"
+        android:gravity="left"></EditText>
+        <TextView
+            android:text="cm" 
+            android:textColor="@color/black"
+            android:id="@+id/textView43" 
+            android:layout_width="50dp"
+            android:gravity="left"></TextView>
+    </TableRow>
+     <TableRow
+        android:layout_height="wrap_content"
+        android:id="@+id/tableRow2"
+        android:layout_width="match_parent">
+        
+        
+        <TextView
+            android:text="Hip-Circumferance" 
+            android:textColor="@color/black"
+            android:id="@+id/textView4" 
+            android:layout_width="50dp"
+            android:gravity="center_horizontal"></TextView>
+<!--        <Spinner android:id="@+id/spinner1" -->
+<!--        android:layout_height="35dp"   -->
+<!--        android:layout_width="match_parent">-->
+<!--        </Spinner>-->
+        <EditText android:id="@+id/edittext5" 
+        android:layout_height="45dp"
+        android:gravity="left"></EditText>
+         <TextView
+            android:text="cm" 
+            android:textColor="@color/black"
+            android:id="@+id/textView44" 
+            android:layout_width="50dp"
+            android:gravity="left"></TextView>
+        
+    </TableRow>
+     <TableRow
+        android:layout_height="wrap_content"
+        android:id="@+id/tableRow2"
+        android:layout_width="match_parent">
+        
+        
+        <TextView
+            android:text="Height" 
+            android:textColor="@color/black"
+            android:id="@+id/textView4" 
+            android:layout_width="50dp"
+            android:gravity="center_horizontal"></TextView>
+<!--        <Spinner android:id="@+id/spinner1" -->
+<!--        android:layout_height="35dp"   -->
+<!--        android:layout_width="match_parent">-->
+<!--        </Spinner>-->
+        <EditText android:id="@+id/edittext6" 
+        android:layout_height="45dp"
+        android:gravity="left"></EditText>
+        <TextView
+            android:text="cm" 
+            android:textColor="@color/black"
+            android:id="@+id/textView45" 
+            android:layout_width="50dp"
+            android:gravity="left"></TextView>
+    </TableRow>
+     <TableRow
+        android:layout_height="wrap_content"
+        android:id="@+id/tableRow2"
+        android:layout_width="match_parent">
+        
+        
+        <TextView
+            android:text="Pain Scale" 
+            android:textColor="@color/black"
+            android:id="@+id/textView4" 
+            android:layout_width="50dp"
+            android:gravity="center_horizontal"></TextView>
+<!--        <Spinner android:id="@+id/spinner1" -->
+<!--        android:layout_height="35dp"   -->
+<!--        android:layout_width="match_parent">-->
+<!--        </Spinner>-->
+        <EditText android:id="@+id/edittext7" 
+        android:layout_height="45dp"
+        android:gravity="left"></EditText>
+        <TextView
+            android:text="" 
+            android:textColor="@color/black"
+            android:id="@+id/textView46" 
+            android:layout_width="50dp"
+            android:gravity="left"></TextView>
+    </TableRow>
+     <TableRow
+        android:layout_height="wrap_content"
+        android:id="@+id/tableRow2"
+        android:layout_width="match_parent">
+        
+        
+        <TextView
+            android:text="Peak Respitory FlowRate" 
+            android:textColor="@color/black"
+            android:id="@+id/textView4" 
+            android:layout_width="50dp"
+            android:gravity="center_horizontal"></TextView>
+<!--        <Spinner android:id="@+id/spinner1" -->
+<!--        android:layout_height="35dp"   -->
+<!--        android:layout_width="match_parent">-->
+<!--        </Spinner>-->
+        <EditText android:id="@+id/edittext8" 
+        android:layout_height="45dp"
+        android:gravity="left"></EditText>
+        <TextView
+            android:text="L/s" 
+            android:textColor="@color/black"
+            android:id="@+id/textView47" 
+            android:layout_width="50dp"
+            android:gravity="left"></TextView>
+    </TableRow>
+     <TableRow
+        android:layout_height="wrap_content"
+        android:id="@+id/tableRow2"
+        android:layout_width="match_parent">
+        
+        
+        <TextView
+            android:text="PostTreatment Respitory FlowRate" 
+            android:textColor="@color/black"
+            android:id="@+id/textView4" 
+            android:layout_width="50dp"
+            android:gravity="center_horizontal"></TextView>
+<!--        <Spinner android:id="@+id/spinner1" -->
+<!--        android:layout_height="35dp"   -->
+<!--        android:layout_width="match_parent">-->
+<!--        </Spinner>-->
+        <EditText android:id="@+id/edittext9" 
+        android:layout_height="45dp"
+        android:gravity="left"></EditText>
+        <TextView
+            android:text="L/s" 
+            android:textColor="@color/black"
+            android:id="@+id/textView48" 
+            android:layout_width="50dp"
+            android:gravity="left"></TextView>
+    </TableRow>
+     <TableRow
+        android:layout_height="wrap_content"
+        android:id="@+id/tableRow2"
+        android:layout_width="match_parent">
+        
+        
+        <TextView
+            android:text="Pulse" 
+            android:textColor="@color/black"
+            android:id="@+id/textView4" 
+            android:layout_width="50dp"
+            android:gravity="center_horizontal"></TextView>
+<!--        <Spinner android:id="@+id/spinner1" -->
+<!--        android:layout_height="35dp"   -->
+<!--        android:layout_width="match_parent">-->
+<!--        </Spinner>-->
+        <EditText android:id="@+id/edittext10" 
+        android:layout_height="45dp"
+        android:gravity="left"></EditText>
+        <TextView
+            android:text="BPM" 
+            android:textColor="@color/black"
+            android:id="@+id/textView49" 
+            android:layout_width="50dp"
+            android:gravity="left"></TextView>
+    </TableRow>
+     <TableRow
+        android:layout_height="wrap_content"
+        android:id="@+id/tableRow2"
+        android:layout_width="match_parent">
+        
+        
+        <TextView
+            android:text="Pulse Oximetry" 
+            android:textColor="@color/black"
+            android:id="@+id/textView4" 
+            android:layout_width="50dp"
+            android:gravity="center_horizontal"></TextView>
+<!--        <Spinner android:id="@+id/spinner1" -->
+<!--        android:layout_height="35dp"   -->
+<!--        android:layout_width="match_parent">-->
+<!--        </Spinner>-->
+        <EditText android:id="@+id/edittext11" 
+        android:layout_height="45dp"
+        android:gravity="left"></EditText>
+        <TextView
+            android:text="%" 
+            android:textColor="@color/black"
+            android:id="@+id/textView50" 
+            android:layout_width="50dp"
+            android:gravity="left"></TextView>
+    </TableRow>
+     <TableRow
+        android:layout_height="wrap_content"
+        android:id="@+id/tableRow2"
+        android:layout_width="match_parent">
+        
+        
+        <TextView
+            android:text="Respiration" 
+            android:textColor="@color/black"
+            android:id="@+id/textView4" 
+            android:layout_width="50dp"
+            android:gravity="center_horizontal"></TextView>
+<!--        <Spinner android:id="@+id/spinner1" -->
+<!--        android:layout_height="35dp"   -->
+<!--        android:layout_width="match_parent">-->
+<!--        </Spinner>-->
+        <EditText android:id="@+id/edittext12" 
+        android:layout_height="45dp"
+        android:gravity="left"></EditText>
+        <TextView
+            android:text="rpm" 
+            android:textColor="@color/black"
+            android:id="@+id/textView51" 
+            android:layout_width="50dp"
+            android:gravity="left"></TextView>
+    </TableRow>
+     <TableRow
+        android:layout_height="wrap_content"
+        android:id="@+id/tableRow2"
+        android:layout_width="match_parent">
+        
+        
+        <TextView
+            android:text="Temparature" 
+            android:textColor="@color/black"
+            android:id="@+id/textView4" 
+            android:layout_width="50dp"
+            android:gravity="center_horizontal"></TextView>
+<!--        <Spinner android:id="@+id/spinner1" -->
+<!--        android:layout_height="35dp"   -->
+<!--        android:layout_width="match_parent">-->
+<!--        </Spinner>-->
+        <EditText android:id="@+id/edittext13" 
+        android:layout_height="45dp"
+        android:gravity="left"></EditText>
+        <TextView
+            android:text="F" 
+            android:textColor="@color/black"
+            android:id="@+id/textView52" 
+            android:layout_width="50dp"
+            android:gravity="left"></TextView>
+    </TableRow>
+     <TableRow
+        android:layout_height="wrap_content"
+        android:id="@+id/tableRow2"
+        android:layout_width="match_parent">
+        
+        
+        <TextView
+            android:text="Weight" 
+            android:textColor="@color/black"
+            android:id="@+id/textView4" 
+            android:layout_width="50dp"
+            android:gravity="center_horizontal"></TextView>
+<!--        <Spinner android:id="@+id/spinner1" -->
+<!--        android:layout_height="35dp"   -->
+<!--        android:layout_width="match_parent">-->
+<!--        </Spinner>-->
+        <EditText android:id="@+id/edittext14" 
+        android:layout_height="45dp"
+        android:gravity="left"></EditText>
+        <TextView
+            android:text="Kg" 
+            android:textColor="@color/black"
+            android:id="@+id/textView53" 
+            android:layout_width="50dp"
+            android:gravity="left"></TextView>
+    </TableRow>
+    </TableLayout>
+   </ScrollView>
+ 
+ 
+ <TableRow android:layout_height="wrap_content" 
+ android:id="@+id/tableRow5" 
+ android:layout_width="match_parent">
+    <TextView
+            android:background="@color/white"
+            android:id="@+id/textView5" 
+            android:textColor="@color/black"
+            android:height="8dp"
+            ></TextView>
+    </TableRow>
+<TableRow android:layout_height="wrap_content" 
+android:id="@+id/tableRow5" 
+android:layout_width="match_parent">
+  <TextView android:text="     " 
+  android:layout_width="40dp">
+  </TextView>
+      <Button android:text="AddToCos" 
+      android:id="@+id/button1" 
+      android:layout_width="135dp"
+       android:layout_height="30dp"
+       android:background="@drawable/bckgrnd"></Button>
+  </TableRow>
+</LinearLayout>
